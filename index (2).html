@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEGURMAX | Seguridad Privada</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header, footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+    }
+    .services, .testimonios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .service, .testimonio {
+      width: 30%;
+      margin: 10px 0;
+    }
+    h2 {
+      color: #1a1a1a;
+    }
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 400px;
+    }
+    input, textarea, button {
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #1a1a1a;
+      color: white;
+      cursor: pointer;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+    .whatsapp img {
+      width: 60px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    @media(max-width: 768px) {
+      .service, .testimonio {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SEGURMAX</h1>
+    <p>Tu seguridad, nuestra prioridad</
+    <img src="imagenes/logo.jpg" alt="empresa" style="width: 80px; height: 80px; border-radius: 50%;">
+  </header>
+
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#valores">Valores</a>
+    <a href="#evolucion">Evolución</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>¿Quiénes somos?</h2>
+    <p>SEGURMAX nació en 2018 en Toluca, Estado de México, fundada por Cristian y Guillermo, dos emprendedores con formación en gestión empresarial y experiencia en el sector de seguridad privada. Detectaron una necesidad urgente de servicios de seguridad confiables, modernos y éticos, y decidieron crear una empresa que elevara el estándar de protección en la región.</p>
+    <p>A lo largo de más de 6 años en el mercado, SEGURMAX ha pasado de ofrecer vigilancia física básica a brindar soluciones integrales: vigilancia armada, monitoreo remoto, consultoría en seguridad, y tecnología de control de acceso.</p>
+  </section>
+
+  <section id="valores">
+    <h2>Misión</h2>
+    <p>Brindar soluciones integrales de seguridad privada, física y tecnológica, con personal altamente capacitado, tecnología de punta y atención personalizada, garantizando protección y tranquilidad a nuestros clientes.</p>
+
+    <h2>Visión</h2>
+    <p>Ser la empresa líder en seguridad privada en el Estado de México, reconocida por su innovación, profesionalismo y compromiso con la excelencia operativa.</p>
+
+    <h2>Valores</h2>
+    <ul>
+      <li><strong>Integridad:</strong> actuamos con ética, transparencia y responsabilidad.</li>
+      <li><strong>Compromiso:</strong> protegemos como si fuera para nosotros mismos.</li>
+      <li><strong>Disciplina:</strong> seguimos protocolos estrictos en cada servicio.</li>
+      <li><strong>Innovación:</strong> adoptamos tecnología para mejorar cada día.</li>
+      <li><strong>Empatía:</strong> entendemos las preocupaciones del cliente y respondemos con soluciones reales.</li>
+    </ul>
+  </section>
+
+  <section id="evolucion">
+    <h2>Evolución Destacada</h2>
+    <ul>
+      <li><strong>2018:</strong> Inician con 5 vigilantes en zonas residenciales.</li>
+      <li><strong>2020:</strong> Se incorpora tecnología de monitoreo remoto y patrullas móviles.</li>
+      <li><strong>2022:</strong> Obtienen certificaciones y contratos con empresas industriales.</li>
+      <li><strong>2024:</strong> Lanzan su expansión hacia corporativos y fraccionamientos premium.</li>
+    </ul>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios y Productos</h2>
+    <div class="services">
+      <div class="service">
+        <img src="imagenes/servicio1.jpg" alt="Cliente satisfecho" style="width: 80px; height: 80px; border-radius: 50%;">
+        <h3>Vigilancia Física</h3>
+        <p>Guardias uniformados y capacitados para proteger instalaciones 24/7.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/servicio2.jpg" alt="Cliente satisfecho" style="width: 80px; height: 80px; border-radius: 50%;">
+        <h3>Vigilancia Armada</h3>
+        <p>Elementos con permiso de portación para zonas de alto riesgo.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/servicio3.jpg" alt="Cliente satisfecho" style="width: 80px; height: 80px; border-radius: 50%;">
+        <h3>Monitoreo Remoto</h3>
+        <p>Supervisión por cámaras y sensores en tiempo real.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/servicio4.jpg" alt="Cliente satisfecho" style="width: 80px; height: 80px; border-radius: 50%;">
+        <h3>Control de Acceso</h3>
+        <p>Sistemas electrónicos para oficinas, fraccionamientos y empresas.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/servicio5.jpg" alt="Cliente satisfecho" style="width: 80px; height: 80px; border-radius: 50%;">
+        <h3>Patrullaje Móvil</h3>
+        <p>Unidades con rondines programados en zonas industriales o residenciales.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonios">
+    <h2>Testimonios</h2>
+    <div class="testimonios">
+      <div class="Juan">
+        <img src="imagenes/testimonio1.jpg" alt="Cliente satisfecho" style="width: 80px; height: 80px; border-radius: 50%;">
+        <p><em>"Desde que contratamos a SEGURMAX, nuestros residentes se sienten más tranquilos. Siempre atentos y puntuales."</em></p>
+        <strong>- Administrador de Fraccionamiento</strong>
+      </div>
+      <div class="Luis">
+        <img src="imagenes/testimonio2.jpg" alt="Cliente satisfecho" style="width: 80px; height: 80px; border-radius: 50%;">
+        <p><em>"Profesionales y serios. Nos ayudaron a implementar un sistema de control de acceso que ha reducido incidentes en la planta."</em></p>
+        <strong>- Gerente de Seguridad Industrial</strong>
+      </div>
+      <div class="Valeria">
+        <img src="imagenes/testimonio3.jpg" alt="Cliente satisfecho" style="width: 80px; height: 80px; border-radius: 50%;">
+        <p><em>"Gracias a su consultoría, reestructuramos nuestros protocolos y mejoramos la seguridad interna sin gastar de más."</em></p>
+        <strong>- CEO de Corporativo en Metepec</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form action="mailto:contacto@segurmax.mx" method="post" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="correo" placeholder="Tu correo electrónico" required />
+      <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <h3>Ubicación</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.606993735543!2d-99.6626!3d19.428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8be654321abc%3A0x1234567890abcdef!2sToluca!5e0!3m2!1ses-419!2smx!4v0000000000"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SEGURMAX. Todos los derechos reservados.</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/segurmax" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/segurmax" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/company/segurmax" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <!-- Botón WhatsApp -->
+  <div class="whatsapp">
+    <a href="https://wa.me/5217220000000" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+    </a>
+  </div>
+
+</body>
+</html>
